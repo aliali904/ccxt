@@ -11,19 +11,12 @@ using list = List<object>;
 public class Tests
 {
     public static string ccxtBaseDir = System.AppDomain.CurrentDomain.BaseDirectory + "../../../../..";
-
     public static List<string> exchangesId;
-
     public static string exchangesPath = ccxtBaseDir + "/exchanges.json";
-
     public static string skipTestsPath = ccxtBaseDir + "/skip-tests.json";
-
     public static string keysPath = ccxtBaseDir + "/keys.json";
-
     public static nestedDict exchanges = new nestedDict();
-
     public static Exchange exchange = null;
-
     public static string exchangeId = null;
     public static string symbol = null;
     public static string methodName = null;
